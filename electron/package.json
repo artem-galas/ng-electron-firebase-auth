@@ -1,0 +1,19 @@
+{
+  "name": "firebase-auth-electron",
+  "version": "1.0.0",
+  "description": "Electron app with firebase login",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.6",
+    "electron-packager": "^14.0.0"
+  },
+  "dependencies": {
+    "electron-oauth-helper": "^5.0.1"
+  }
+}
